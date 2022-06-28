@@ -1,0 +1,98 @@
+.header{
+    height: 90px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(7, 7, 7);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+    color: white;
+    width: 300px;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.yts-logo{
+    margin-left: 60px;
+}
+
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-bar{
+    margin-left: 240px;
+    padding: 8px 40px 8px 40px;
+    background-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(127, 127, 127);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;  
+}
+
+
+
+.right-section{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-shrink: 0;
+    
+}
+
+
+.right-section .quality{
+    color: rgb(13, 220, 13);
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.right-section div{
+    color: rgb(134, 134, 134);
+    font-family: Arial;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition:1s;
+}
+
+.home:hover{
+    color: white;
+}
+
+.trending:hover{
+    color: white;
+}
+
+.browse-movies:hover{
+    color: white;
+}
